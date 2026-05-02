@@ -1,0 +1,15 @@
+{
+	"name": "adfsensorstudio",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5fa7e076-fa83-4215-89f6-8b5bc4642a08",
+		"tenantId": "52bc1a23-a7f8-439d-b4fb-177417cf12ef"
+	}
+}
