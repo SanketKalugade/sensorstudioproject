@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze  # The logical name used in dbt
+    database: sensor_catalog      # The actual database name in your warehouse
+    schema: bronze     # The actual schema name
+    tables:
+      - name: cars_sale 
